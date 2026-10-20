@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or idea
+    url: https://github.com/kitloom/kitloom/discussions
+    about: Ask how to do something or suggest a feature in Discussions.
+  - name: Security vulnerability
+    url: https://github.com/kitloom/kitloom/security/advisories/new
+    about: Report it privately, not in a public issue.
+  - name: Purchase, licence or refund
+    url: mailto:support@kitloom.dev
+    about: Write to support@kitloom.dev.

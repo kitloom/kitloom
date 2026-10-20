@@ -1,0 +1,54 @@
+name: Bug report
+description: Something in kitloom does not work as documented.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. Please do not paste licence keys, package tokens or `auth.json` here.
+  - type: input
+    id: version
+    attributes:
+      label: kitloom version
+      description: "`composer show 'kitloom/*'` shows it, e.g. v0.1.1."
+    validations:
+      required: true
+  - type: dropdown
+    id: admin
+    attributes:
+      label: Admin
+      options:
+        - Filament
+        - Nova
+        - Not admin-related
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: PHP, Laravel and database
+      placeholder: PHP 8.4, Laravel 13, MySQL 8.0
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Import a WXR file with …
+        2. Open …
+        3. Click …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected and what happened
+      description: Error messages and the relevant part of `storage/logs/laravel.log` help a lot.
+    validations:
+      required: true
+  - type: textarea
+    id: wordpress
+    attributes:
+      label: WordPress side (if it matters)
+      description: The plugins whose data is involved (ACF, WooCommerce, CF7, …) and their versions.
