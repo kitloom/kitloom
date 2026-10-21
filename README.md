@@ -16,7 +16,7 @@ This repository is where kitloom users and the people evaluating it talk to us: 
 - **40+ modules**, each a Composer package that plugs itself in: SEO, redirects and a 404 monitor, contact forms, custom fields, custom post types, a shop, bookings, online courses, real estate listings, languages, backups, a link checker, cookie consent, analytics and tag manager, two-factor authentication, social login, webhooks, the WordPress REST API and more — see the [module catalog](https://kitloom.dev/docs/modules/catalog.html).
 - **Themes in Blade, Vue or React** (Inertia), 14 bundled ones with demo content, and `php artisan kitloom:make-theme` to generate your own — see the [theme catalog](https://kitloom.dev/docs/themes/catalog.html).
 - **A headless CMS when you want one**: every page also answers as JSON, next to the WordPress REST API (`/wp-json/wp/v2`).
-- **AI agents over MCP**: an agent reads and writes the site's content with the rights of the user whose key it holds.
+- **AI agents over MCP**: Claude, Cursor or your own agent connects to the site's `/mcp` and runs it — posts, media, SEO, redirects, menus, the shop's orders — with the rights of the user whose key it holds; nothing is deleted for good. See [AI Agents](https://kitloom.dev/docs/ai.html) and [Two Ways to Use AI](https://kitloom.dev/docs/ai-overview.html).
 
 ## WordPress plugins whose data it reads
 

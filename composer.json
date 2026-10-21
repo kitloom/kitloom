@@ -18,7 +18,11 @@
         "contact-form-7",
         "headless-cms",
         "mcp",
-        "inertia"
+        "inertia",
+        "ai",
+        "ai-agents",
+        "claude",
+        "llm"
     ],
     "homepage": "https://kitloom.dev",
     "authors": [
