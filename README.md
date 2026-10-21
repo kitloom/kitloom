@@ -1,6 +1,6 @@
 # kitloom — a Laravel CMS for sites with WordPress data
 
-**Move a WordPress site to Laravel with its database as it is.** kitloom runs on the WordPress tables — posts, pages, meta, options, users, menus, media, comments — and keeps the URLs, permalinks and template hierarchy, so every page answers at the address it had. The admin is [Filament](#the-filament-edition) or [Laravel Nova](#the-nova-edition); the front end is Blade, Vue, React or plain JSON; and an MCP server gives Claude, Cursor or your own AI agent exactly the access you decide.
+**Move a WordPress site to Laravel with its database as it is.** kitloom is a WordPress alternative that keeps your WordPress data: no export, no import, no URL rewrite. It runs on the WordPress tables — posts, pages, meta, options, users, menus, media, comments — and keeps the URLs, permalinks and template hierarchy, so every page answers at the address it had. The admin is [Filament](#the-filament-edition) or [Laravel Nova](#the-nova-edition); the front end is Blade, Vue, React or plain JSON; and an MCP server gives Claude, Cursor or your own AI agent exactly the access you decide.
 
 This repository is where kitloom users and the people evaluating it talk to us: questions, ideas and bug reports. The product's code is not here — it is installed with Composer from the kitloom package repository after purchase.
 
@@ -64,7 +64,7 @@ Teams with a WordPress site that has outgrown its plugins and want Laravel — q
 | suggest a feature, a module or a WordPress plugin to cover | [Discussions → Ideas](https://github.com/kitloom/kitloom/discussions/categories/ideas) |
 | report a bug | [Issues → New issue](https://github.com/kitloom/kitloom/issues/new/choose) |
 | report a security vulnerability | **privately**, see [SECURITY.md](https://github.com/kitloom/kitloom/blob/main/SECURITY.md) |
-| ask about a purchase, a licence or a refund | support@kitloom.dev |
+| ask about a purchase, a license or a refund | support@kitloom.dev |
 
 We read everything here and answer within a business day.
 

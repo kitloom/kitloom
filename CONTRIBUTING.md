@@ -8,4 +8,4 @@ What helps us most:
 - **Ideas**: a module you miss, a WordPress plugin whose data kitloom should read, a rough edge in the admin. Start a thread in [Discussions → Ideas](../../discussions/categories/ideas), or add a 👍 to an existing one: we look at the votes when we plan.
 - **Answers**: if you know how to solve someone's question in Q&A, please do.
 
-Be kind and specific. Do not post licence keys, package tokens, `auth.json` or other credentials anywhere here.
+Be kind and specific. Do not post license keys, package tokens, `auth.json` or other credentials anywhere here.

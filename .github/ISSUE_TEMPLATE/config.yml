@@ -6,6 +6,6 @@ contact_links:
   - name: Security vulnerability
     url: https://github.com/kitloom/kitloom/security/advisories/new
     about: Report it privately, not in a public issue.
-  - name: Purchase, licence or refund
+  - name: Purchase, license or refund
     url: mailto:support@kitloom.dev
     about: Write to support@kitloom.dev.

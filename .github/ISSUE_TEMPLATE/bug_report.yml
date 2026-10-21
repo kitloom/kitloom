@@ -5,12 +5,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time. Please do not paste licence keys, package tokens or `auth.json` here.
+        Thanks for taking the time. Please do not paste license keys, package tokens or `auth.json` here.
   - type: input
     id: version
     attributes:
       label: kitloom version
-      description: "`composer show 'kitloom/*'` shows it, e.g. v0.1.1."
+      description: "`composer show 'kitloom/*'` shows it, e.g. v1.0.0."
     validations:
       required: true
   - type: dropdown
