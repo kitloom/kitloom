@@ -1,16 +1,24 @@
 {
     "name": "kitloom/kitloom",
-    "description": "A Laravel CMS for sites with WordPress data: Filament or Nova admin over the WordPress database. The product is installed from packages.kitloom.dev; this package only describes it.",
+    "description": "A Laravel CMS for sites with WordPress data: move a WordPress site to Laravel with its database, Filament or Nova admin, WooCommerce, ACF and Contact Form 7 data. Description only; installed from packages.kitloom.dev.",
     "type": "metapackage",
     "license": "proprietary",
     "keywords": [
         "cms",
         "laravel",
+        "laravel-cms",
         "wordpress",
-        "nova",
+        "wordpress-to-laravel",
+        "migration",
         "filament",
+        "nova",
         "admin",
-        "mcp"
+        "woocommerce",
+        "acf",
+        "contact-form-7",
+        "headless-cms",
+        "mcp",
+        "inertia"
     ],
     "homepage": "https://kitloom.dev",
     "authors": [
