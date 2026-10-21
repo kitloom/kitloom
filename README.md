@@ -11,6 +11,18 @@ This repository is where kitloom users and the people evaluating it talk to us. 
 - [Pricing](https://kitloom.dev/pricing.html): Filament Edition and Nova Edition, 14-day refund without questions.
 - [Changelog](https://kitloom.dev/docs/changelog.html)
 
+## The Nova Edition
+
+The whole admin drawn in Laravel Nova 5, at `/nova`: posts and pages with a visual editor and their translations, the media library over WordPress attachments, menus, widgets and themes, custom fields on ACF's data model, users and roles, every WordPress settings screen, and a section per module — SEO, redirects, forms, a shop, bookings, courses, listings, backups, languages, the MCP server for AI agents and more. Each module is a Composer package that plugs itself in and can be switched off on the Modules screen.
+
+Nova is sold by Laravel, not with kitloom: every site needs its own [Nova license](https://nova.laravel.com). After purchase, a new site starts with:
+
+```bash
+composer create-project kitloom/nova-skeleton my-site --repository=https://packages.kitloom.dev --add-repository
+```
+
+An existing Laravel 13 application with Nova 5 adds the packages instead — see [Installation](https://kitloom.dev/docs/installation.html). This repository's `composer.json` only describes kitloom for Packagist: requiring `kitloom/kitloom` installs nothing of kitloom itself.
+
 ## Where to write
 
 | You want to… | Go to |

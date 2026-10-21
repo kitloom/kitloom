@@ -1,0 +1,35 @@
+{
+    "name": "kitloom/kitloom",
+    "description": "A Laravel CMS for sites with WordPress data: Filament or Nova admin over the WordPress database. The product is installed from packages.kitloom.dev; this package only describes it.",
+    "type": "metapackage",
+    "license": "proprietary",
+    "keywords": [
+        "cms",
+        "laravel",
+        "wordpress",
+        "nova",
+        "filament",
+        "admin",
+        "mcp"
+    ],
+    "homepage": "https://kitloom.dev",
+    "authors": [
+        {
+            "name": "Kitloom",
+            "email": "support@kitloom.dev",
+            "homepage": "https://kitloom.dev"
+        }
+    ],
+    "support": {
+        "email": "support@kitloom.dev",
+        "issues": "https://github.com/kitloom/kitloom/issues",
+        "forum": "https://github.com/kitloom/kitloom/discussions",
+        "docs": "https://kitloom.dev/docs/introduction.html",
+        "security": "https://github.com/kitloom/kitloom/blob/main/SECURITY.md"
+    },
+    "require": {
+        "php": "^8.4",
+        "laravel/framework": "^13.0",
+        "laravel/nova": "^5.0"
+    }
+}
