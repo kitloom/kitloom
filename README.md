@@ -1,6 +1,6 @@
 # kitloom — a Laravel CMS for sites with WordPress data
 
-**Move a WordPress site to Laravel with its database as it is.** kitloom is a WordPress alternative that keeps your WordPress data: no export, no import, no URL rewrite. It runs on the WordPress tables — posts, pages, meta, options, users, menus, media, comments — and keeps the URLs, permalinks and template hierarchy, so every page answers at the address it had. The admin is [Filament](#the-filament-edition) or [Laravel Nova](#the-nova-edition); the front end is Blade, Vue, React or plain JSON; and an MCP server gives Claude, Cursor or your own AI agent exactly the access you decide.
+**Move a WordPress site to Laravel with its database as it is.** kitloom is a WordPress alternative that keeps your WordPress data: no export, no import, no URL rewrite. It runs on the WordPress tables — posts, pages, meta, options, users, menus, media, comments — and keeps the URLs, permalinks and template hierarchy, so every page answers at the address it had. The admin is [Filament](#kitloom-for-filament) or [Laravel Nova](#kitloom-for-nova); the front end is Blade, Vue, React or plain JSON; and an MCP server gives Claude, Cursor or your own AI agent exactly the access you decide.
 
 This repository is where kitloom users and the people evaluating it talk to us: questions, ideas and bug reports. The product's code is not here — it is installed with Composer from the kitloom package repository after purchase.
 
@@ -8,7 +8,7 @@ This repository is where kitloom users and the people evaluating it talk to us: 
 
 - **Live demo, no sign-up:** your own [Filament sandbox](https://filament.kitloom.dev/new) or [Nova sandbox](https://nova.kitloom.dev/new) in one click, with every module and theme.
 - [Documentation](https://kitloom.dev/docs/introduction.html) · [Installation](https://kitloom.dev/docs/installation.html) · [Migrate from WordPress](https://kitloom.dev/docs/migrate-from-wordpress.html) · [Changelog](https://kitloom.dev/docs/changelog.html)
-- [Pricing](https://kitloom.dev/pricing.html): Filament Edition or Nova Edition, one site or unlimited, 14-day refund without questions.
+- [Pricing](https://kitloom.dev/pricing.html): Kitloom for Filament or Kitloom for Nova, one site or unlimited, 14-day refund without questions.
 
 ## What you get
 
@@ -34,7 +34,7 @@ kitloom reads the tables and meta these plugins leave behind, so their content c
 | Sliders | Slide Anything |
 | Social login | Nextend Social Login |
 
-## The Filament Edition
+## Kitloom for Filament
 
 The whole admin in [Filament](https://filamentphp.com) 5, at `/admin`: posts and pages with a visual editor and their translations, the media library over WordPress attachments, menus, widgets and themes, custom fields, users and roles, every WordPress settings screen, and a section per module. Modules are switched on and off on the Modules screen. After purchase, a new site starts with:
 
@@ -42,7 +42,7 @@ The whole admin in [Filament](https://filamentphp.com) 5, at `/admin`: posts and
 composer create-project kitloom/filament-skeleton my-site --repository=https://packages.kitloom.dev --add-repository
 ```
 
-## The Nova Edition
+## Kitloom for Nova
 
 The same admin in [Laravel Nova](https://nova.laravel.com) 5, at `/nova`, with every module's section. Nova is sold by Laravel, not with kitloom: every site needs its own Nova license. A new site starts with:
 
