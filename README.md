@@ -1,6 +1,6 @@
-# kitloom — a Laravel CMS for sites with WordPress data
+# kitloom — start from WordPress, run it with AI
 
-**Move a WordPress site to Laravel with its database as it is.** kitloom is a WordPress alternative that keeps your WordPress data: no export, no import, no URL rewrite. It runs on the WordPress tables — posts, pages, meta, options, users, menus, media, comments — and keeps the URLs, permalinks and template hierarchy, so every page answers at the address it had. The admin is [Filament](#kitloom-for-filament) or [Laravel Nova](#kitloom-for-nova); the front end is Blade, Vue, React or plain JSON; and an MCP server gives Claude, Cursor or your own AI agent exactly the access you decide.
+**Start from WordPress. Run it with AI.** Bring the WordPress site you have — kitloom runs on its database as it is: posts, pages, meta, options, users, menus, media, comments, the plugins' data, the same URLs and permalinks, with no export, import or URL rewrite. Or start a new site on the same data model, with no WordPress installed. Either way, Claude, Cursor or your own AI agent does the site's work through a built-in MCP server, with exactly the rights of the user whose key it holds: drafts for an author's key, locked settings, nothing deleted for good, every change in the activity log. The admin is [Filament](#kitloom-for-filament) or [Laravel Nova](#kitloom-for-nova); the front end is Blade, Vue, React or plain JSON.
 
 This repository is where kitloom users and the people evaluating it talk to us: questions, ideas and bug reports. The product's code is not here — it is installed with Composer from the kitloom package repository after purchase.
 
