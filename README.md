@@ -7,6 +7,7 @@ This repository is where kitloom users and the people evaluating it talk to us: 
 ## Try it
 
 - **Live demo, no sign-up:** your own [Filament sandbox](https://filament.kitloom.dev/new) or [Nova sandbox](https://nova.kitloom.dev/new) in one click, with every module and theme.
+- **Video lessons:** short narrated walks through the admin and an AI agent at work, on [YouTube](https://www.youtube.com/@kitloomdev).
 - [Documentation](https://kitloom.dev/docs/introduction.html) · [Installation](https://kitloom.dev/docs/installation.html) · [Migrate from WordPress](https://kitloom.dev/docs/migrate-from-wordpress.html) · [Changelog](https://kitloom.dev/docs/changelog.html)
 - [Pricing](https://kitloom.dev/pricing.html): Kitloom for Filament or Kitloom for Nova, one site or unlimited, 14-day refund without questions.
 
